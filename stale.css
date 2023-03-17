@@ -1,0 +1,51 @@
+body {
+
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+header {
+    background-color: blue;
+}
+
+
+section {
+    background-color: rgb(17, 202, 17);
+
+    flex: 1;
+
+    display: flex;
+
+    align-items:  flex-start;
+
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+nav {
+    background-color: rgb(20, 117, 155);
+    flex-basis: 200px;
+}
+
+main {
+    background-color: white;
+    flex: 1;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+
+aside {
+    background-color: aquamarine;
+    flex-basis: 150px;
+    flex-shrink: 0;
+}
